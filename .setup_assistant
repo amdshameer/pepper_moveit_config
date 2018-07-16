@@ -2,7 +2,10 @@ moveit_setup_assistant_config:
   URDF:
     package: pepper_description
     relative_path: urdf/pepper1.0_generated_urdf/pepper.urdf
+    xacro_args: ""
   SRDF:
     relative_path: config/JulietteY20MP.srdf
   CONFIG:
-    generated_timestamp: 1440764030
+    author_name: Shameer
+    author_email: shameer@shameer.com
+    generated_timestamp: 1531388756
