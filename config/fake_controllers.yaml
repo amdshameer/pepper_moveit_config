@@ -33,7 +33,7 @@ controller_list:
       - LHand
   - name: fake_base_controller
     joints:
-      - virtual_odom
+      []
   - name: fake_head_controller
     joints:
       - HeadYaw

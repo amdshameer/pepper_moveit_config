@@ -6,6 +6,6 @@ moveit_setup_assistant_config:
   SRDF:
     relative_path: config/JulietteY20MP.srdf
   CONFIG:
-    author_name: Shameer
-    author_email: shameer@shameer.com
-    generated_timestamp: 1531388756
+    author_name: Mohammed Shameer
+    author_email: sabubucker@techfak.uni-bielefeld.de
+    generated_timestamp: 1532683022
