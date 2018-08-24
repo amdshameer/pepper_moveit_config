@@ -12,6 +12,21 @@ joint_limits:
     max_velocity: 7.33998
     has_acceleration_limits: false
     max_acceleration: 0
+  HipPitch:
+    has_velocity_limits: true
+    max_velocity: 2.93276
+    has_acceleration_limits: false
+    max_acceleration: 0
+  HipRoll:
+    has_velocity_limits: true
+    max_velocity: 2.27032
+    has_acceleration_limits: false
+    max_acceleration: 0
+  KneePitch:
+    has_velocity_limits: true
+    max_velocity: 2.93276
+    has_acceleration_limits: false
+    max_acceleration: 0
   LElbowRoll:
     has_velocity_limits: true
     max_velocity: 9.22756
@@ -210,5 +225,20 @@ joint_limits:
   RWristYaw:
     has_velocity_limits: true
     max_velocity: 17.3835
+    has_acceleration_limits: false
+    max_acceleration: 0
+  WheelB:
+    has_velocity_limits: true
+    max_velocity: 6.28319
+    has_acceleration_limits: false
+    max_acceleration: 0
+  WheelFL:
+    has_velocity_limits: true
+    max_velocity: 6.28319
+    has_acceleration_limits: false
+    max_acceleration: 0
+  WheelFR:
+    has_velocity_limits: true
+    max_velocity: 6.28319
     has_acceleration_limits: false
     max_acceleration: 0

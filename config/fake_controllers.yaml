@@ -33,8 +33,14 @@ controller_list:
       - LHand
   - name: fake_base_controller
     joints:
-      []
+      - virtual_odom
   - name: fake_head_controller
     joints:
       - HeadYaw
       - HeadPitch
+
+initial:
+  - group: left_arm
+    pose: left_home
+  - group: right_arm
+    pose: right_home
